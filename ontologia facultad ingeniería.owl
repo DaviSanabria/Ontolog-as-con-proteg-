@@ -1,0 +1,900 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/jgale/ontologies/2022/9/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/jgale/ontologies/2022/9/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/jgale/ontologies/2022/9/untitled-ontology-7"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>Created by:
+
+Luisa Maria Lugo Flórez
+Jose David Sanabria Aponte</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Administrativos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alumnos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Análisis_y_decisiones_financieras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asignaturas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cálculo_Diferencial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cálculo_Integral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cálculo_Multivariado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cátedra_Democracia_y_Ciudadanía"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cátedra_Francisco_José_de_Caldas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cátedra_de_Contexto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Docentes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Economía"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electrónica_en_potencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Especialización_en_educación_en_tecnología"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Especialización_en_ingenría_de_software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Especialización_en_telecomunicaciones_móviles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Especialización_en_teleinformática"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estadística"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Etica_y_Bioetica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fotogrametría_digital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Física_I"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Física_II"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Física_III"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Historia_y_cultura_colombiana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hombre_sociedad_y_ecología"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horarios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingeniería_de_sistemas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingeniería_económica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingeniería_electrica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingeniería_electrónica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingeniería_industrial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inteligencia_artificial_II"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maestría_en_gestión_y_seguridad_de_la_información"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maestría_en_ingeniería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maestría_en_telecomunicaciones_móviles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Postgrados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pregrados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Probabilidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Producción_y_Comprensión_de_Textos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programación_Básica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programación_Orientada_a_Objetos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protecciones_electricas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Segunda_Lengua_I"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Segunda_Lengua_II"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Segunda_Lengua_III"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seminario_de_Ingeniería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#básicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#de_ingeniería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#de_profundización"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ingeniería_catastral_y_geodesia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Álgebra_Lineal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#comparten_con"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dictan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#es_prerequisito_de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estructurados_para"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estudian"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#organizan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pretenecen_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#son_dictadas_por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#son_estudiadas_por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#son_organizados_por"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#código"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#documento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#número"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#promedio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#salario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carlos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deicy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jose_Villada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luisa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mabel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Susana"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Administrativos"/>
+        <Class IRI="#Personas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alumnos"/>
+        <Class IRI="#Personas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alumnos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estudian"/>
+            <Class IRI="#Ingeniería_de_sistemas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alumnos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estudian"/>
+            <Class IRI="#Ingeniería_electrica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alumnos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estudian"/>
+            <Class IRI="#Ingeniería_electrónica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alumnos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estudian"/>
+            <Class IRI="#Ingeniería_industrial"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alumnos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estudian"/>
+            <Class IRI="#ingeniería_catastral_y_geodesia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Análisis_y_decisiones_financieras"/>
+        <Class IRI="#de_profundización"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cálculo_Diferencial"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cálculo_Integral"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cálculo_Multivariado"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cátedra_Democracia_y_Ciudadanía"/>
+        <Class IRI="#básicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cátedra_Francisco_José_de_Caldas"/>
+        <Class IRI="#básicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cátedra_de_Contexto"/>
+        <Class IRI="#básicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docentes"/>
+        <Class IRI="#Personas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Economía"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electrónica_en_potencia"/>
+        <Class IRI="#de_profundización"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electrónica_en_potencia"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#son_estudiadas_por"/>
+            <Class IRI="#Ingeniería_electrónica"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Especialización_en_educación_en_tecnología"/>
+        <Class IRI="#Postgrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Especialización_en_ingenría_de_software"/>
+        <Class IRI="#Postgrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Especialización_en_telecomunicaciones_móviles"/>
+        <Class IRI="#Postgrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Especialización_en_teleinformática"/>
+        <Class IRI="#Postgrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estadística"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Etica_y_Bioetica"/>
+        <Class IRI="#básicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fotogrametría_digital"/>
+        <Class IRI="#de_profundización"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fotogrametría_digital"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#son_estudiadas_por"/>
+            <Class IRI="#ingeniería_catastral_y_geodesia"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Física_I"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Física_II"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Física_III"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Historia_y_cultura_colombiana"/>
+        <Class IRI="#básicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hombre_sociedad_y_ecología"/>
+        <Class IRI="#básicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingeniería_de_sistemas"/>
+        <Class IRI="#Pregrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingeniería_de_sistemas"/>
+        <ObjectMaxCardinality cardinality="10">
+            <ObjectProperty IRI="#estudian"/>
+            <Class IRI="#básicas"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingeniería_económica"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingeniería_electrica"/>
+        <Class IRI="#Pregrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingeniería_electrica"/>
+        <ObjectMaxCardinality cardinality="10">
+            <ObjectProperty IRI="#estudian"/>
+            <Class IRI="#básicas"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingeniería_electrónica"/>
+        <Class IRI="#Pregrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingeniería_electrónica"/>
+        <ObjectMaxCardinality cardinality="10">
+            <ObjectProperty IRI="#estudian"/>
+            <Class IRI="#básicas"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingeniería_industrial"/>
+        <Class IRI="#Pregrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingeniería_industrial"/>
+        <ObjectMaxCardinality cardinality="10">
+            <ObjectProperty IRI="#estudian"/>
+            <Class IRI="#básicas"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inteligencia_artificial_II"/>
+        <Class IRI="#de_profundización"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inteligencia_artificial_II"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#son_estudiadas_por"/>
+            <Class IRI="#Ingeniería_de_sistemas"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maestría_en_gestión_y_seguridad_de_la_información"/>
+        <Class IRI="#Postgrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maestría_en_ingeniería"/>
+        <Class IRI="#Postgrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maestría_en_telecomunicaciones_móviles"/>
+        <Class IRI="#Postgrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Postgrados"/>
+        <Class IRI="#Programas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pregrados"/>
+        <Class IRI="#Programas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Probabilidad"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Producción_y_Comprensión_de_Textos"/>
+        <Class IRI="#básicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Programación_Básica"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Programación_Orientada_a_Objetos"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protecciones_electricas"/>
+        <Class IRI="#de_profundización"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protecciones_electricas"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#son_estudiadas_por"/>
+            <Class IRI="#Ingeniería_electrica"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Segunda_Lengua_I"/>
+        <Class IRI="#básicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Segunda_Lengua_II"/>
+        <Class IRI="#básicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Segunda_Lengua_III"/>
+        <Class IRI="#básicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seminario_de_Ingeniería"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#básicas"/>
+        <Class IRI="#Asignaturas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#de_ingeniería"/>
+        <Class IRI="#Asignaturas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#de_profundización"/>
+        <Class IRI="#Asignaturas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#de_profundización"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#son_estudiadas_por"/>
+            <Class IRI="#Pregrados"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ingeniería_catastral_y_geodesia"/>
+        <Class IRI="#Pregrados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ingeniería_catastral_y_geodesia"/>
+        <ObjectMaxCardinality cardinality="10">
+            <ObjectProperty IRI="#estudian"/>
+            <Class IRI="#básicas"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Álgebra_Lineal"/>
+        <Class IRI="#de_ingeniería"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Postgrados"/>
+        <Class IRI="#Pregrados"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Docentes"/>
+        <NamedIndividual IRI="#Carlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes"/>
+        <NamedIndividual IRI="#Deicy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alumnos"/>
+        <NamedIndividual IRI="#Jose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes"/>
+        <NamedIndividual IRI="#Jose_Villada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alumnos"/>
+        <NamedIndividual IRI="#Luisa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Docentes"/>
+        <NamedIndividual IRI="#Mabel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Administrativos"/>
+        <NamedIndividual IRI="#Susana"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#dictan"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#es_prerequisito_de"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#estructurados_para"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#estudian"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#organizan"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#pretenecen_a"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#son_dictadas_por"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#son_estudiadas_por"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#son_organizados_por"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#dictan"/>
+        <ObjectProperty IRI="#son_dictadas_por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#estructurados_para"/>
+        <ObjectProperty IRI="#pretenecen_a"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#estudian"/>
+        <ObjectProperty IRI="#son_estudiadas_por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#organizan"/>
+        <ObjectProperty IRI="#son_organizados_por"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#dictan"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#estructurados_para"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#estudian"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#organizan"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#pretenecen_a"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#son_dictadas_por"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#son_estudiadas_por"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#son_organizados_por"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#comparten_con"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#es_prerequisito_de"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#dictan"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estructurados_para"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estudian"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#organizan"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#pretenecen_a"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#son_dictadas_por"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#son_estudiadas_por"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#son_organizados_por"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#estudian"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#organizan"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#son_organizados_por"/>
+    </TransitiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#comparten_con"/>
+    </ReflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#dictan"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estructurados_para"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estudian"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#pretenecen_a"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#son_estudiadas_por"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#comparten_con"/>
+        <Class IRI="#Personas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dictan"/>
+        <Class IRI="#Docentes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_prerequisito_de"/>
+        <Class IRI="#Asignaturas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estructurados_para"/>
+        <Class IRI="#Programas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estudian"/>
+        <Class IRI="#Alumnos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#organizan"/>
+        <Class IRI="#Administrativos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pretenecen_a"/>
+        <Class IRI="#Alumnos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#son_dictadas_por"/>
+        <Class IRI="#Asignaturas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#son_estudiadas_por"/>
+        <Class IRI="#Asignaturas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#son_organizados_por"/>
+        <Class IRI="#Asignaturas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#son_organizados_por"/>
+        <Class IRI="#Horarios"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#son_organizados_por"/>
+        <Class IRI="#Personas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#son_organizados_por"/>
+        <Class IRI="#Programas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#comparten_con"/>
+        <Class IRI="#Personas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dictan"/>
+        <Class IRI="#Asignaturas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#es_prerequisito_de"/>
+        <Class IRI="#Asignaturas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estructurados_para"/>
+        <Class IRI="#Alumnos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estudian"/>
+        <Class IRI="#Asignaturas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#organizan"/>
+        <Class IRI="#Asignaturas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#organizan"/>
+        <Class IRI="#Horarios"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#organizan"/>
+        <Class IRI="#Personas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#organizan"/>
+        <Class IRI="#Programas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pretenecen_a"/>
+        <Class IRI="#Postgrados"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pretenecen_a"/>
+        <Class IRI="#Pregrados"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#son_dictadas_por"/>
+        <Class IRI="#Docentes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#son_estudiadas_por"/>
+        <Class IRI="#Alumnos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#son_organizados_por"/>
+        <Class IRI="#Administrativos"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#número"/>
+        <DataProperty IRI="#documento"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#tipo"/>
+        <DataProperty IRI="#documento"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#código"/>
+        <Class IRI="#Alumnos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#código"/>
+        <Class IRI="#Asignaturas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Personas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#número"/>
+        <Class IRI="#Personas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#promedio"/>
+        <Class IRI="#Alumnos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#salario"/>
+        <Class IRI="#Administrativos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#salario"/>
+        <Class IRI="#Docentes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipo"/>
+        <Class IRI="#Personas"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#código"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#número"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#promedio"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#salario"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
